@@ -1,14 +1,7 @@
-<<<<<<< Updated upstream
-Review version of the SHAD dataset.
-
-`Dataset/` contains all labeled time series, grouped by experiment type, indexed by experiment id.
-
-`Annotations/` contains all XML annotations, indexed by the experiment id they correspond to.   
-=======
 # SHAD
 
 <p align="center">
-  <img src="Figures/overview.png" width="700"/>
+  <img src="Figures/Overview.png" width="700"/>
 </p>
 
 **SHAD** (Scality High-dimensional Anomaly Detection benchmark) is a benchmark built from 
@@ -298,8 +291,3 @@ For the implementation of anomaly detectors, we refer the readers to the [TSB-AD
 
 ## Interpretability
 The code in `Scripts/interpretability_main` runs the interpretability experiment for the 3 different types of representations. To run the experiment, it is necessary to store the MISTRAL API key in a .env file (MISTRAL_API_KEY=XXX) that is then loaded in the experiment script. 
-
-
-
-
->>>>>>> Stashed changes
